@@ -462,6 +462,21 @@ main {
   flex-grow: 1;
 }
 
+@media screen and (max-height: 650px) {
+  .dialogue-section {
+    height: 250px;
+  }
+
+  .character-figure {
+    bottom: 270px;
+    width: 150px;
+  }
+
+  .character-name {
+    min-width: 170px;
+  }
+}
+
 @media screen and (min-width: 400px) {
   body {
     font-size: 1.5rem;
