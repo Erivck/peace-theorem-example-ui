@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 1.5rem;
+  font-size: 5.5vw;
   min-height: 100vh;
   display: flex;
   flex-flow: column nowrap;
@@ -16,6 +16,11 @@ body {
 img {
   display: block;
 }
+
+:root {
+  --FS: 1rem;
+}
+
 
 .title, .loading, .tap-promt {
   display: grid;
