@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   min-height: 100vh;
   display: flex;
   flex-flow: column nowrap;
@@ -461,4 +461,10 @@ main {
 
 .minigames-menu {
   flex-grow: 1;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    font-size: 1.5rem;
+  }
 }
